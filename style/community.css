@@ -1,0 +1,351 @@
+/* GENERAL */
+
+body {
+    background-color: #0B1929;
+    color: #EAF6FF;
+    font-family: Arial, sans-serif;
+}
+
+
+/* CURRENT WEATHER HERO*/
+
+.com-section-1 {
+    margin-top: 75px;
+    background: linear-gradient(120deg, #07182B, #123B5A, #176080);
+    color: white;
+}
+
+.weather-icon {
+    font-size: 75px;
+}
+
+#temperature {
+    font-size: 85px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero-description {
+    color: #DCEAF5;
+}
+
+.weather-detail {
+    height: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.weather-detail i {
+    font-size: 28px;
+    color: #7DD3FC;
+}
+
+.weather-detail p {
+    color: #B8D5E8;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.weather-detail h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.weather-detail:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+}
+
+
+/*  WEATHER FORECAST */
+
+.forecast-wrapper {
+    background-color: #10263D;
+    border: 1px solid #294B68;
+}
+
+.community-heading {
+    color: #7DD3FC;
+}
+
+.forecast-card {
+    height: 100%;
+    padding: 18px 10px;
+    text-align: center;
+    background-color: #183B5B;
+    border: 1px solid #326184;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.forecast-card:hover {
+    background-color: #24577D;
+    transform: translateY(-5px);
+}
+
+.forecast-card p {
+    color: #B8D5E8;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.forecast-card h6 {
+    color: #7DD3FC;
+    font-weight: bold;
+}
+
+.forecast-card h4 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.forecast-card span {
+    color: #B8D5E8;
+}
+
+.forecast-icon {
+    font-size: 35px;
+    margin: 12px 0;
+}
+
+.forecast-divider {
+    border-color: #7DD3FC;
+}
+
+
+/* ============== Community =========== */
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(23, 43, 77, 0.15);
+}
+
+.card h4 {
+    color: #243f63;
+}
+
+a {
+    color: #29466b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #527da8;
+    text-decoration: underline;
+}
+
+.alert-info {
+    background-color: #e3edf7;
+    color: #243f63;
+}
+
+
+/* ===================================Start STORM RISK======================================= */
+.storm-banner {
+    background-color: #071B33;
+}
+
+.storm-banner p {
+    max-width: 750px;
+}
+
+#storm-risk-checklist {
+    margin-top: 110px;
+    color: #EAF6FF;
+}
+
+#storm-risk-checklist h2,
+#storm-risk-checklist h3 {
+    color: #7DD3FC;
+}
+
+#storm-risk-checklist .card {
+    background-color: #183B5B;
+    border: 1px solid #326184;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+}
+
+#storm-risk-checklist .card h5 {
+    color: #7DD3FC;
+}
+
+#storm-risk-checklist .card p {
+    color: #E0EAF2;
+}
+
+#storm-risk-checklist .card:hover {
+    background-color: #24577D;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}   
+/* =======================================End STORM RISK ================================================== */
+
+/* ========================================= Start Safety =============================================== */
+/* STORM BANNER */
+        .storm-header {
+            background: linear-gradient(135deg, #193B59, #0B1B2B, #245A7D);
+            border: 1px solid rgba(117, 205, 245, 0.25);
+            border-radius: 20px;
+            padding: 55px 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .storm-header h1 {
+            color: #75CDF5;
+            font-weight: 800;
+        }
+
+        .storm-header p {
+            color: #D5E2EF;
+            line-height: 1.8;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+
+        .action-section {
+            background-color: #0B1B2B;
+            color: white;
+        }
+
+        .section-title,
+        .support-title,
+        .contact-heading {
+            color: #75CDF5;
+        }
+
+        /* FLIP CARD */
+        .flip-card {
+            height: 320px;
+            perspective: 1200px;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: transform 0.8s ease;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+            position: absolute;
+            inset: 0;
+            padding: 25px;
+            border-radius: 16px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .flip-card-front {
+            background-color: #193B59;
+            border: 1px solid rgba(117, 205, 245, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .flip-card-back {
+            background-color: #245A7D;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transform: rotateY(180deg);
+        }
+
+        .flip-card h5 {
+            color: #75CDF5;
+            font-weight: bold;
+        }
+
+        .flip-card p {
+            line-height: 1.7;
+        }
+
+        .action-icon {
+            width: 55px;
+            height: 55px;
+            background-color: rgba(117, 205, 245, 0.15);
+            color: #75CDF5;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 27px;
+            margin-bottom: 18px;
+        }
+
+        /* SUPPORT FLIP CARDS */
+        .support-flip {
+            height: 230px;
+        }
+
+        /* SAFETY REMINDER */
+        .action-alert,
+        .working-hours,
+        .important-note {
+            background-color: rgba(18, 104, 245, 0.12);
+            border-left: 4px solid #75CDF5;
+            border-radius: 10px;
+        }
+
+        /* SUPPORT SECTION */
+        .support-box {
+            background-color: #193B59;
+            border: 1px solid rgba(117, 205, 245, 0.15);
+            border-radius: 18px;
+        }
+
+        /* CONTACT CARDS */
+        .contact-card {
+            background-color: #193B59;
+            border: 1px solid rgba(117, 205, 245, 0.15);
+            border-radius: 12px;
+            padding: 20px;
+            height: 100%;
+            transition: 0.3s ease;
+        }
+
+        .contact-card:hover {
+            background-color: #245A7D;
+            transform: translateY(-4px);
+        }
+
+        .contact-card h6 {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+
+        .contact-card i {
+            color: #75CDF5;
+        }
+
+        .contact-link {
+            color: #75CDF5;
+            text-decoration: none;
+            font-weight: 600;
+            overflow-wrap: anywhere;
+        }
+
+        .contact-link:hover {
+            color: white;
+            text-decoration: underline;
+        }
+/* ========================================= End Safety =============================================== */
+
+.reserch-text{
+    color: white;
+}
